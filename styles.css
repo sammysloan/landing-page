@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 * {
     font-family:'Roboto', sans-serif;
     color: white;
@@ -140,3 +143,9 @@ li {
     width: 25%;
 }
 /** FOOTER SECTION **/
+.footer {
+    background-color: #1F2937;
+
+    padding: 50px;
+    text-align: center;
+}
