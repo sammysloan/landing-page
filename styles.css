@@ -1,0 +1,142 @@
+* {
+    font-family:'Roboto', sans-serif;
+    color: white;
+}
+/** HEADER SECTION **/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0px 180px
+}
+.header p {
+    font-size: 24px;
+    font-weight: 900;
+}
+ul {
+    display: flex;
+    justify-items: flex-end;
+
+    font-size: 18px;
+    list-style: none;
+    padding: 0;
+    gap: 18px;
+}
+li {
+    color: lightslategrey;
+}
+/** HERO SECTION **/
+.hero {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #1F2937;
+    padding: 80px 180px;
+}
+.hero-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 48px;
+}
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.sub-text {
+    color: lightslategrey;
+    font-size: 18px;
+}
+.button {
+    width: 33%;
+    background-color: #3882f6;
+
+
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+.hero-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+    background-color: lightslategrey;
+}
+/** GALLERY SECTION **/
+.info {
+   color: #1F2937;
+   font-size: 36px;
+   font-weight: 900; 
+   text-align: center;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+.entry {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    width: 160px;
+}
+.img {
+    height: 160px;
+    width: 160px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+.img-section {
+    color: lightslategrey;
+}
+/** QUOTATION SECTION **/
+.quotation {
+    background-color: #E5E7EB;
+    padding: 90px 180px;
+}
+.quotation p {
+    color: #1F2937;
+}
+.quotation-text {
+   font-size: 24px; 
+   font-style: italic;
+   font-weight: lighter;
+}
+.quotation-attribution {
+    color: #1F2937;
+    font-size: 24px;        
+    font-weight: 900; 
+    text-align: right;
+}
+/** CALL TO ACTION SECTION **/
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3882f6;
+
+    border-radius: 10px;
+    margin: 90px 180px;
+    padding: 60px 120px;
+
+    font-size: 24px;
+    font-weight: 900;
+}
+.call-left {
+    width: 66%;
+}
+.call-left p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+.call-to-action .button {
+    border: 1px solid white;
+    width: 25%;
+}
+/** FOOTER SECTION **/
